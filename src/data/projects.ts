@@ -2,30 +2,28 @@ import type { Project } from './types';
 
 export const projects: Project[] = [
   {
-    id: "airsense",
-    title: "AirSense",
-    affiliation: "IoT and Embedded Systems Labs",
-    description: "IoT-based air quality monitoring system with real-time analytics and predictive alerts",
-    stack: ["Next.js", "Express", "PostgreSQL", "MQTT", "IoT"],
-    isWinner: true,
-    winnerBadge: "Huawei Asia Pacific Winner 2025",
-    year: "2024",
-    status: "Completed"
-  },
-  {
     id: "npm-package-datacanvas",
-    title: "NPM Package: DataCanvas SDK",
+    title: "NPM Package: DataCanvas Data Retrieval APIs",
     affiliation: "IoT and Embedded Systems Labs",
-    description: "Client SDK for data retrieval using API Keys",
+    description: "SDK Development for integration of DataCanvas platform with external applications.",
     stack: ["TypeScript", "Node"],
-    year: "2024",
+    year: "Ongoing",
+    status: "In Progress"
+  },
+    {
+    id: "fyp",
+    title: "Havelock Mall Adapted Blind Navigation System",
+    description: "Real time navigation system for visually impaired individuals in shopping malls like Havelock City Mall, Sri Lanka",
+    stack: ["In Review"],
+    year: "Ongoing",
+    affiliation: "Academic Project",
     status: "In Progress"
   },
   {
     id: "verifica",
     title: "Verifica",
     affiliation: "IoT and Embedded Systems Labs",
-    description: "Biometric student verification system enabling secure authentication fingerprint scanning.",
+    description: "Biometric student verification system for Center for Open Distance Learning, University of Moratuwa",
     stack: ["JavaScript", "React Native", "Next"],
     year: "2024",
     status: "Completed"
@@ -33,37 +31,28 @@ export const projects: Project[] = [
   {
     id: "datacanvas",
     title: "DataCanvas",
-    affiliation: "SaaS Product",
-    description: "IoT SaaS platform for IoT data storage and analysis with customizable features.",
+    affiliation: "IoT and Embedded Systems Labs",
+    description: "Customizable IoT data analysis platform with real-time data visualization and integration capabilities",
     stack: ["TypeScript", "React", "Node.js", "PostgreSQL", "MQTT", "Firebase"],
     year: "2024",
     status: "Completed"
   },
   {
-    id: "ordereka",
-    title: "Ordereka",
-    description: "QR based restaurant management platform with online menu, ordering and table reservation",
-    stack: ["Next.js", "Supabase", "PostgreSQL"],
+    id: "umt",
+    title: "University Maintenance Tracking Portal",
+    description: "Maintenance request and tracking system for University of Moratuwa cleaning and security staff",
+    stack: ["Next.js", "Express.js", "React.js", "React Native", "MySQL"],
     year: "2024",
-    affiliation: "SaaS Product",
+    affiliation: "IoT and Embedded Systems Labs",
     status: "Completed"
   },
   {
-    id: "hawk-iot",
-    title: "Hawk IoT",
-    description: "Real time IoT device energy monitoring and analytics application",
-    stack: ["JavaScript", "React Native", "MQTT", "Firebase"],
-    year: "2024",
-    affiliation: "Freelance Product",
-    status: "Completed"
-  },
-  {
-    id: "fyp",
-    title: "Havelock Mall: Blind Navigation System",
-    description: "Mapping and navigation system for visually impaired community in Havelock Mall, Sri Lanka",
-    stack: ["In Review"],
+    id: "firststep",
+    title: "FirstStep",
+    description: "Modern job matching platform with algorithm-based recommendations to connect job seekers with employers",
+    stack: ["Angular", "ASP.NET", "SQL Server"],
     year: "2024",
     affiliation: "Academic Project",
-    status: "In Progress"
-  }
+    status: "Completed"
+  },
 ];

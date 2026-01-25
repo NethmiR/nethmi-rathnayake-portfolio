@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sankha Bimsara Ambeypitiya - Associate Software Engineer",
+  title: "Nethmi Nawaanjana Rathnayake - Undergraduate | Former Intern",
   description:
-    "Portfolio of Sankha Bimsara Ambeypitiya - Associate Software Engineer specializing in Full Stack Development with expertise in Node.js, React, and Cloud Technologies.",
+    "Portfolio of Nethmi Nawaanjana Rathnayake - Undergraduate and former IFS Software Engineer Intern specializes in full-stack software product development",
 };
 
 export default function RootLayout({

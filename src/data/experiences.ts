@@ -2,32 +2,31 @@ import type { Experience } from './types';
 
 export const experiences: Experience[] = [
   {
-    id: "geveo-associate",
-    company: "Geveo Australasia (Pvt) Ltd",
-    role: "Associate Software Engineer",
-    period: "Aug 2025 – Present",
-    startDate: "2025-08",
-    endDate: "Present",
-    description: "Delivering high-impact solutions for enterprise clients with a focus on security and performance optimization.",
+    id: "ifs-intern",
+    company: "IFS - Manufacturing Team",
+    role: "Software Engineering Intern",
+    period: "Mar 2025 – Aug 2025",
+    startDate: "2025-03",
+    endDate: "2025-08",
+    description: "Contributed to the design and implementation of enterprise-scale manufacturing system components following IFS engineering standards with strong customer-facing features",
     achievements: [
-      "Achieved 70% increase in encryption efficiency through optimized cryptographic implementations",
-      "Recognized as Employee of the Month twice for exceptional contributions",
-      "Active member of the company Welfare team, contributing to employee engagement initiatives"
+      "Contributed to the design and implementation of enterprise-scale manufacturing systems",
+      "Followed IFS engineering standards with strong customer-facing features"
     ],
-    stack: ["C#", "ASP.NET Core", "Azure", "MSSQL"],
+    stack: ["React", "Next.js", "Node.js", "TypeScript"],
     type: "technical",
   },
   {
-    id: "geveo-intern",
-    company: "Geveo Australasia (Pvt) Ltd",
-    role: "Software Engineering Intern",
-    period: "Feb 2025 – Jul 2025",
-    startDate: "2025-02",
-    endDate: "2025-07",
-    description: "Developed proof-of-concept solutions and service projects with focus on enhancing user experience.",
+    id: "hypercube",
+    company: "Hypercube Labs (Pvt) Ltd",
+    role: "Full Stack Developer",
+    period: "Jul 2023 – Feb 2025",
+    startDate: "2023-07",
+    endDate: "2025-02",
+    description: "Developed and maintained administration systems across design, implementation, deployment, and post-release support phases, while working closely with stakeholders",
     achievements: [
-      "Created POCs demonstrating innovative solutions for client requirements",
-      "Enhanced UX across multiple service projects through modern frontend implementations"
+      "Developed and maintained administration systems across design, implementation, deployment, and post-release support phases",
+      "Collaborated closely with stakeholders to ensure system effectiveness and reliability"
     ],
     stack: ["React", "Next.js", "Node.js", "TypeScript"],
     type: "technical",
@@ -35,14 +34,13 @@ export const experiences: Experience[] = [
   {
     id: "iot-labs-lead",
     company: "IoT & Embedded Systems Labs, University of Moratuwa",
-    role: "Team Lead & Developer",
-    period: "Aug 2023 – Jan 2026",
-    startDate: "2023-08",
+    role: "Research Project Developer / Full Stack Developer",
+    period: "Jan 2023 – Present",
+    startDate: "2023-01",
     endDate: "2026-01",
-    description: "Led development of IoT products used at scale by the University of Moratuwa, managing cross-functional teams and delivering enterprise-grade solutions.",
+    description: "Designed and implemented research-backed software products deployed for university-level operational and commercial use, with strong IoT background",
     achievements: [
-      "Led team in developing products deployed university-wide",
-      "Established development best practices and CI/CD pipelines for lab projects"
+      "Designed and implemented research-backed software products deployed for university-level operational and commercial use",
     ],
     stack: ["React", "Next.js", "Azure", "Node.js", "MQTT"],
     type: "technical",

@@ -10,43 +10,6 @@ export default function AchievementsSection() {
 
       <div className="mb-12">
         <h3 className="text-2xl font-semibold text-[var(--gh-fg-default)] mb-6">
-          Honors & Awards
-        </h3>
-        <div className="space-y-6">
-          {awards.map((award) => (
-            <div
-              key={award.id}
-              className="flex items-start gap-4 p-6 border border-[var(--gh-border-default)] rounded-lg bg-[var(--gh-canvas-subtle)]"
-            >
-              <div className="flex-shrink-0 w-10 h-10 bg-[var(--gh-attention-fg)] rounded-full flex items-center justify-center">
-                <svg
-                  className="w-5 h-5 text-white"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                </svg>
-              </div>
-              <div>
-                <h4 className="font-semibold text-[var(--gh-fg-default)] mb-1">
-                  {award.title}
-                </h4>
-                <p className="text-sm text-[var(--gh-fg-muted)]">
-                  {award.event} • {award.year}
-                </p>
-                {award.level && (
-                  <p className="text-xs text-[var(--gh-fg-muted)] mt-1">
-                    {award.level}
-                  </p>
-                )}
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      <div>
-        <h3 className="text-2xl font-semibold text-[var(--gh-fg-default)] mb-6">
           Certifications
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -81,6 +44,43 @@ export default function AchievementsSection() {
                     </p>
                   </div>
                 </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div>
+        <h3 className="text-2xl font-semibold text-[var(--gh-fg-default)] mb-6">
+          Honors & Awards
+        </h3>
+        <div className="space-y-6">
+          {awards.map((award) => (
+            <div
+              key={award.id}
+              className="flex items-start gap-4 p-6 border border-[var(--gh-border-default)] rounded-lg bg-[var(--gh-canvas-subtle)]"
+            >
+              <div className="flex-shrink-0 w-10 h-10 bg-[var(--gh-attention-fg)] rounded-full flex items-center justify-center">
+                <svg
+                  className="w-5 h-5 text-white"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                </svg>
+              </div>
+              <div>
+                <h4 className="font-semibold text-[var(--gh-fg-default)] mb-1">
+                  {award.title}
+                </h4>
+                <p className="text-sm text-[var(--gh-fg-muted)]">
+                  {award.event} • {award.year}
+                </p>
+                {award.level && (
+                  <p className="text-xs text-[var(--gh-fg-muted)] mt-1">
+                    {award.level}
+                  </p>
+                )}
               </div>
             </div>
           ))}

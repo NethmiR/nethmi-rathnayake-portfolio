@@ -20,7 +20,7 @@ export default function Navigation() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="text-xl font-semibold text-[var(--gh-fg-default)] hover:text-[var(--gh-accent-fg)] transition-colors">
-            Sankha Ambeypitiya
+            Nethmi Rathnayake
           </Link>
           
           <div className="flex items-center gap-1">

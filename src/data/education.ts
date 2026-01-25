@@ -7,10 +7,10 @@ export const education: Education[] = [
     degree: "BSc (Hons.) in Information Technology",
     location: "Sri Lanka",
     period: "Aug 2022 – Aug 2026 (Expected)",
-    gpa: "3.63/4.0",
+    gpa: "3.81/4.0",
     achievements: [
-      "Dean's List in 1 semester",
-      "Active contributor to IoT and Embedded Systems Labs and Mass Media Club",
+      "Dean's List in 3 semesters",
+      "Batch first in 1 semester",
     ],
   },
   {
@@ -20,22 +20,20 @@ export const education: Education[] = [
     location: "Tokyo, Japan",
     period: "Sep 2025 – Oct 2025",
     isInternational: true,
-    internationalBadge: "International Research Exchange",
+    internationalBadge: "International Student Exchange",
     achievements: [
-      "Research focus on Computer Vision and Image Processing",
-      "Collaborative research with international faculty",
-      "Cross-cultural academic exchange experience"
+      "Computer vision research",
+      "Research and development standards and exposure",
+      "International academic experience"
     ],
   },
   {
-    id: "thomas",
-    institution: "St. Thomas' College",
+    id: "musaeus",
+    institution: "Musaeus College",
     degree: "G.C.E. Advanced Level",
-    location: "Matara, Sri Lanka",
+    location: "Colombo, Sri Lanka",
     period: "Jan 2018 - Oct 2020",
     isInternational: false,
-    achievements: [
-      "Extracurricular excellence in Information Technology, Compering and Mass Media",
-    ],
+
   }
 ];

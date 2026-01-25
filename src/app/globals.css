@@ -1,20 +1,20 @@
 @import "tailwindcss";
 
-/* GitHub Dark Theme Colors */
+/* Light Theme with Green Accents */
 :root {
-  --gh-canvas-default: #0d1117;
-  --gh-canvas-subtle: #161b22;
-  --gh-canvas-inset: #010409;
-  --gh-border-default: #30363d;
-  --gh-border-muted: #21262d;
-  --gh-fg-default: #e6edf3;
-  --gh-fg-muted: #7d8590;
-  --gh-fg-subtle: #6e7681;
-  --gh-accent-fg: #2f81f7;
-  --gh-accent-emphasis: #1f6feb;
-  --gh-success-fg: #3fb950;
-  --gh-attention-fg: #d29922;
-  --gh-danger-fg: #f85149;
+  --gh-canvas-default: #ffffff;
+  --gh-canvas-subtle: #f6f8fa;
+  --gh-canvas-inset: #f0f3f5;
+  --gh-border-default: #d0d7de;
+  --gh-border-muted: #e5e9ed;
+  --gh-fg-default: #1f2328;
+  --gh-fg-muted: #656d76;
+  --gh-fg-subtle: #8c959f;
+  --gh-accent-fg: #1a7f37;
+  --gh-accent-emphasis: #2da44e;
+  --gh-success-fg: #1a7f37;
+  --gh-attention-fg: #bf8700;
+  --gh-danger-fg: #d1242f;
 }
 
 @theme inline {

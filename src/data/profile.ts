@@ -1,11 +1,12 @@
 import type { Profile } from './types';
 
 export const profile: Profile = {
-  name: "Sankha Bimsara Ambeypitiya",
-  role: "Associate Software Engineer",
-  tagline: "Associate Software Engineer with award-winning international exposure and expertise in full-stack product development and cloud solutions.",
+  name: "Nethmi Nawaanjana Rathnayake",
+  role: "Undergraduate | Former IFS Software Engineer Intern",
+  tagline: "Aspiring Software Engineer passionate about full-stack software product development and innovative solutions.",
   socials: {
-    github: "github.com/sankhaBA",
-    linkedin: "linkedin.com/in/sankhabimsara"
+    github: "github.com/nethmir",
+    linkedin: "www.linkedin.com/in/nethmi-rathnayake-20bb8b22b/",
+    medium: "medium.com/@rathnayakenethmiit",
   }
 };

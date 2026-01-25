@@ -7,6 +7,7 @@ export interface Profile {
   socials: {
     github: string;
     linkedin: string;
+    medium?: string;
   };
 }
 
@@ -67,4 +68,18 @@ export interface Certificate {
   year: string;
   href?: string;
   projectHref?: string;
+}
+
+export interface ResearchWork {
+  id: string;
+  title: string;
+  type: string;
+  status: string;
+}
+
+export interface Article {
+  id: string;
+  title: string;
+  platform: string;
+  href: string;
 }

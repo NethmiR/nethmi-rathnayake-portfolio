@@ -25,20 +25,4 @@ export const certificates: Certificate[] = [
     href: "https://www.coursera.org/account/accomplishments/verify/L3NULHD2YMSE?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
     projectHref: "/education",
   },
-  {
-    id: "express-ibm",
-    title: "Developing Back-End Apps with Node.js and Express",
-    issuer: "IBM",
-    year: "2023",
-    href: "https://www.coursera.org/account/accomplishments/certificate/TDRV5V2FK9MB",
-    projectHref: "/education",
-  },
-  {
-    id: "google-project-management",
-    title: "Foundations of Project Management",
-    issuer: "Google",
-    year: "2024",
-    href: "https://www.coursera.org/account/accomplishments/records/JT89WLHERNP6",
-    projectHref: "/education",
-  },
 ];

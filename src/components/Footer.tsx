@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-semibold text-[var(--gh-fg-default)] mb-4">
-              Sankha Ambeypitiya
+              Nethmi Nawaanjana Rathnayake
             </h3>
             <p className="text-[var(--gh-fg-muted)] text-sm">
               Associate Software Engineer & Final Year IT Undergraduate at University of Moratuwa
@@ -53,7 +53,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a 
-                  href="https://github.com/sankhaBA" 
+                  href="https://github.com/nethmir" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-[var(--gh-accent-fg)] hover:underline"
@@ -63,7 +63,7 @@ export default function Footer() {
               </li>
               <li>
                 <a 
-                  href="https://linkedin.com/in/sankhabimsara" 
+                  href="https://www.linkedin.com/in/nethmi-rathnayake-20bb8b22b/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-[var(--gh-accent-fg)] hover:underline"
@@ -76,7 +76,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-[var(--gh-border-default)] text-center text-[var(--gh-fg-muted)] text-sm">
-          <p>&copy; {currentYear} Sankha Ambeypitiya. All rights reserved.</p>
+          <p>&copy; {currentYear} Nethmi Rathnayake. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -10,13 +10,13 @@ export default function HeroSection() {
         <h1 className="text-5xl font-bold text-[var(--gh-fg-default)] mb-6 leading-tight">
           Hi, I'm <span className="text-[var(--gh-accent-fg)]">{profile.name}</span>
         </h1>
-          <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 bg-gradient-to-r from-amber-500/10 to-orange-500/10 border border-amber-500/30 rounded-lg justify-center">
-            <svg className="w-5 h-5 text-amber-500" fill="currentColor" viewBox="0 0 24 24">
+          <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 bg-gradient-to-r from-green-500/10 to-emerald-500/10 border border-green-500/30 rounded-lg justify-center">
+            <svg className="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 24 24">
               <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
             </svg>
-            <span className="text-sm font-medium text-amber-600 dark:text-amber-400">International Award Winner</span>
+            <span className="text-sm font-medium text-green-700">International Research Exposure</span>
             <span className="text-sm text-[var(--gh-fg-muted)]">•</span>
-            <span className="text-sm font-medium text-blue-600 dark:text-blue-400">1+ Years of Industry Expertise</span>
+            <span className="text-sm font-medium text-emerald-700">Strong Problem Solver</span>
           </div>
           <p className="text-xl text-[var(--gh-fg-muted)] mb-4 leading-relaxed font-medium">
             {profile.role}
@@ -49,7 +49,18 @@ export default function HeroSection() {
               </svg>
             </a>
             <a
-              href="mailto:sankha.b21@gmail.com"
+              href={`https://${profile.socials.medium}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[var(--gh-fg-muted)] hover:text-[var(--gh-accent-fg)] transition-colors"
+              aria-label="Medium"
+            >
+              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+              </svg>
+            </a>
+            <a
+              href="mailto:rathnayakenethmiit@gmail.com"
               className="text-[var(--gh-fg-muted)] hover:text-[var(--gh-accent-fg)] transition-colors"
               aria-label="Email"
             >
