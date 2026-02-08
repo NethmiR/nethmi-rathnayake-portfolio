@@ -8,16 +8,21 @@ export const projects: Project[] = [
     description: "SDK Development for integration of DataCanvas platform with external applications.",
     stack: ["TypeScript", "Node"],
     year: "Ongoing",
-    status: "In Progress"
+    status: "In Progress",
+    links: [{
+      title: "Click to view on NPM",
+      href: "https://www.npmjs.com/package/@datacanvas/sdk"
+    }]
   },
-    {
+  {
     id: "fyp",
     title: "Havelock Mall Adapted Blind Navigation System",
     description: "Real time navigation system for visually impaired individuals in shopping malls like Havelock City Mall, Sri Lanka",
     stack: ["In Review"],
     year: "Ongoing",
     affiliation: "Academic Project",
-    status: "In Progress"
+    status: "In Progress",
+    links: []
   },
   {
     id: "verifica",
@@ -26,7 +31,8 @@ export const projects: Project[] = [
     description: "Biometric student verification system for Center for Open Distance Learning, University of Moratuwa",
     stack: ["JavaScript", "React Native", "Next"],
     year: "2024",
-    status: "Completed"
+    status: "Completed",
+    links: []
   },
   {
     id: "datacanvas",
@@ -35,7 +41,8 @@ export const projects: Project[] = [
     description: "Customizable IoT data analysis platform with real-time data visualization and integration capabilities",
     stack: ["TypeScript", "React", "Node.js", "PostgreSQL", "MQTT", "Firebase"],
     year: "2024",
-    status: "Completed"
+    status: "Completed",
+    links: []
   },
   {
     id: "umt",
@@ -44,7 +51,8 @@ export const projects: Project[] = [
     stack: ["Next.js", "Express.js", "React.js", "React Native", "MySQL"],
     year: "2024",
     affiliation: "IoT and Embedded Systems Labs",
-    status: "Completed"
+    status: "Completed",
+    links: []
   },
   {
     id: "firststep",
@@ -53,6 +61,7 @@ export const projects: Project[] = [
     stack: ["Angular", "ASP.NET", "SQL Server"],
     year: "2024",
     affiliation: "Academic Project",
-    status: "Completed"
+    status: "Completed",
+    links: []
   },
 ];
