@@ -37,7 +37,8 @@ export const projects: Project[] = [
     description: "Biometric student verification system for Center for Open Distance Learning, University of Moratuwa",
     stack: ["React Native", "Next", "PostgreSQL"],
     year: "2024",
-    status: "Completed"
+    status: "Completed",
+    links: []
   },
   {
     id: "datacanvas",
@@ -46,7 +47,8 @@ export const projects: Project[] = [
     description: "Customizable IoT data analysis platform with real-time data visualization and integration capabilities",
     stack: ["TypeScript", "React", "Node.js", "PostgreSQL", "MQTT", "Firebase"],
     year: "2024",
-    status: "Completed"
+    status: "Completed",
+    links: []
   },
   {
     id: "umt",
@@ -55,7 +57,8 @@ export const projects: Project[] = [
     stack: ["Next.js", "Express.js", "React.js", "React Native", "MySQL"],
     year: "2024",
     affiliation: "IoT and Embedded Systems Labs",
-    status: "Completed"
+    status: "Completed",
+    links: []
   },
   {
     id: "firststep",
