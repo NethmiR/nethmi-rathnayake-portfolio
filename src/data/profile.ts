@@ -5,8 +5,8 @@ export const profile: Profile = {
   role: "Software Engineer",
   tagline: "Aspiring Software Engineer passionate about full-stack software product development and innovative solutions.",
   socials: {
-    github: "github.com/nethmir",
-    linkedin: "linkedin.com/nethmi-rathnayake",
-    medium: "medium.com/@rathnayakenethmiit",
+    github: "https://github.com/nethmir",
+    linkedin: "https://www.linkedin.com/in/nethmi-rathnayake-20bb8b22b/",
+    medium: "https://medium.com/@rathnayakenethmiit",
   }
 };
