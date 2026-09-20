@@ -2,29 +2,40 @@ import type { Project } from './types';
 
 export const projects: Project[] = [
   {
+    id: "fyp",
+    title: "Havelock Mall Adapted Blind Navigation System",
+    description: "Real time navigation system for visually impaired individuals in shopping malls like Havelock City Mall, Sri Lanka",
+    stack: ["Python", "Fast API", "Building Information Modeling", "Fine-tuned Pathfinding Algorithms"],
+    year: "2026",
+    affiliation: "Final Year Project",
+    status: "Completed"
+  },
+  {
+    id: "unblock-ai",
+    title: "Unblock.AI - Intelligent Organizational Workflow Manager",
+    affiliation: "Ascentic AI Launch Pad",
+    description: "LLM-integrated organizational workflow manager built with full-stack development and LLM integration.",
+    stack: ["Azure AI Foundry", "OpenAI GPT", "Next.js", "Express", "MongoDB", "PostgreSQL"],
+    year: "2026",
+    status: "Completed",
+    href: "https://unblock-ai-app.vercel.app/"
+  },
+  {
     id: "npm-package-datacanvas",
     title: "NPM Package: DataCanvas Data Retrieval APIs",
     affiliation: "IoT and Embedded Systems Labs",
     description: "SDK Development for integration of DataCanvas platform with external applications.",
     stack: ["TypeScript", "Node"],
-    year: "Ongoing",
-    status: "In Progress"
-  },
-    {
-    id: "fyp",
-    title: "Havelock Mall Adapted Blind Navigation System",
-    description: "Real time navigation system for visually impaired individuals in shopping malls like Havelock City Mall, Sri Lanka",
-    stack: ["In Review"],
-    year: "Ongoing",
-    affiliation: "Academic Project",
-    status: "In Progress"
+    year: "2025/2026",
+    status: "Completed",
+    href: "https://www.npmjs.com/package/@datacanvas/sdk"
   },
   {
     id: "verifica",
     title: "Verifica",
     affiliation: "IoT and Embedded Systems Labs",
     description: "Biometric student verification system for Center for Open Distance Learning, University of Moratuwa",
-    stack: ["JavaScript", "React Native", "Next"],
+    stack: ["React Native", "Next", "PostgreSQL"],
     year: "2024",
     status: "Completed"
   },
@@ -49,10 +60,11 @@ export const projects: Project[] = [
   {
     id: "firststep",
     title: "FirstStep",
-    description: "Modern job matching platform with algorithm-based recommendations to connect job seekers with employers",
+    description: "Modern job matching platform with algorithm-based recommendations to connect job seekers with employers. Led full-stack development and the project team.",
     stack: ["Angular", "ASP.NET", "SQL Server"],
     year: "2024",
     affiliation: "Academic Project",
-    status: "Completed"
+    status: "Completed",
+    href: "https://github.com/DoWhile-UOM/FirststepClient"
   },
 ];

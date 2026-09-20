@@ -4,13 +4,12 @@ export const education: Education[] = [
   {
     id: "uom",
     institution: "University of Moratuwa",
-    degree: "BSc (Hons.) in Information Technology",
+    degree: "BSc (Hons.) in Information Technology (First Class)",
     location: "Sri Lanka",
-    period: "Aug 2022 – Aug 2026 (Expected)",
-    gpa: "3.81/4.0",
+    period: "Aug 2022 – Jul 2026",
+    gpa: "3.823/4.0",
     achievements: [
-      "Dean's List in 3 semesters",
-      "Batch first in 1 semester",
+      "Dean's List in 4 out of 8 semesters",
     ],
   },
   {
@@ -30,9 +29,9 @@ export const education: Education[] = [
   {
     id: "musaeus",
     institution: "Musaeus College",
-    degree: "G.C.E. Advanced Level",
+    degree: "G.C.E. Advanced Level (Physical Science)",
     location: "Colombo, Sri Lanka",
-    period: "Jan 2018 - Oct 2020",
+    period: "2007 - 2020",
     isInternational: false,
 
   }

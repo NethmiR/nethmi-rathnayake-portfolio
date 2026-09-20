@@ -2,6 +2,12 @@ import type { Award } from './types';
 
 export const awards: Award[] = [
   {
+    id: "ascentic-ai-launchpad",
+    title: "Top 10 out of 700: Ascentic AI Launch Pad",
+    event: "Ascentic AI Launch Pad",
+    year: "2026",
+  },
+  {
     id: "hackaholics",
     title: "Finalists: Hackaholics 5.0",
     event: "Hackaholics by University of Colombo School of Computing",

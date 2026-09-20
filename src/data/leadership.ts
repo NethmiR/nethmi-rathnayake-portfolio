@@ -2,32 +2,37 @@ import type { Experience } from './types';
 
 export const leadershipRoles: Experience[] = [
   {
-    id: "mass-media-finance",
-    company: "Mass Media Club, University of Moratuwa",
-    role: "Finance Division Head",
-    period: "2024 – 2025",
-    startDate: "2024-01",
-    endDate: "2025-12",
-    description: "Managed financial operations and budgeting for one of the largest student organizations at UoM.",
+    id: "mora-lenz-hr",
+    company: "Mora Lenz Media Club, University of Moratuwa",
+    role: "Committee Member - HR Pillar",
+    period: "Aug 2023 – Aug 2024",
+    startDate: "2023-08",
+    endDate: "2024-08",
+    description: "Served as a committee member for the HR Pillar of Mora Lenz Media Club.",
+    type: "leadership",
+  },
+  {
+    id: "iot-mentor",
+    company: "IoT and Embedded Systems Labs, University of Moratuwa",
+    role: "IoT Mentor",
+    period: "2023",
+    startDate: "2023-01",
+    endDate: "2023-12",
+    description: "Mentored students in IoT technologies as part of university outreach and exhibition programs.",
     achievements: [
-      "Oversaw budget allocation for 15+ events and initiatives",
-      "Implemented transparent financial tracking systems"
+      "IoT Mentor - EXMO 2023 (University flagship exhibition)",
+      "IoT Mentor - IoT and Embedded Systems Labs School Outreach Programs"
     ],
     type: "leadership",
   },
   {
-    id: "speaker-mentor",
-    company: "Industry Mentorship & Speaking Engagements",
-    role: "Speaker & Mentor",
-    period: "2022 – Present",
-    startDate: "2022-01",
-    endDate: "Present",
-    description: "Active contributor to the tech community through speaking engagements and mentorship programs.",
-    achievements: [
-      "Speaker at Idealize 2022 - UoM's flagship ideation event",
-      "Mentor at Rotaract Innovation Workshop 2025",
-      "Guided aspiring developers on career paths and technical skills"
-    ],
+    id: "ieee-volunteer",
+    company: "IEEE Student Branch",
+    role: "Volunteer",
+    period: "2023",
+    startDate: "2023-01",
+    endDate: "2023-12",
+    description: "Volunteered at IEEE Student Branch Open Week 2023.",
     type: "leadership",
   }
 ];
